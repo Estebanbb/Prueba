@@ -9,6 +9,7 @@ namespace Datos
     public class Materia: TrackDate
     {
         public int Id { get; set; }
+
         public string NombreMateria { get; set; }
         public int ProfesorId { get; set; }
 
